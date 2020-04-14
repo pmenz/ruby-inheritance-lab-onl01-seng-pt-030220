@@ -5,7 +5,8 @@ class Teacher < User
 
 
 def teach()
-  return KNOWLEDGE.sample(1)
+  KNOWLEDGE.sample
+  
 end
 
   
